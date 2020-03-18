@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEED4B602422A77A0070C896 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED4B5F2422A77A0070C896 /* AppDelegate.m */; };
-		CEED4B632422A77A0070C896 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED4B622422A77A0070C896 /* SceneDelegate.m */; };
 		CEED4B662422A77A0070C896 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED4B652422A77A0070C896 /* ViewController.m */; };
-		CEED4B692422A77A0070C896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEED4B672422A77A0070C896 /* Main.storyboard */; };
 		CEED4B6B2422A77C0070C896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEED4B6A2422A77C0070C896 /* Assets.xcassets */; };
 		CEED4B6E2422A77C0070C896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEED4B6C2422A77C0070C896 /* LaunchScreen.storyboard */; };
 		CEED4B712422A77C0070C896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEED4B702422A77C0070C896 /* main.m */; };
@@ -31,11 +29,8 @@
 		CEED4B5B2422A77A0070C896 /* ObjectiveCWithoutStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCWithoutStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEED4B5E2422A77A0070C896 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEED4B5F2422A77A0070C896 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEED4B612422A77A0070C896 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CEED4B622422A77A0070C896 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CEED4B642422A77A0070C896 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEED4B652422A77A0070C896 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CEED4B682422A77A0070C896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEED4B6A2422A77C0070C896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEED4B6D2422A77C0070C896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEED4B6F2422A77C0070C896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,11 +81,8 @@
 			children = (
 				CEED4B5E2422A77A0070C896 /* AppDelegate.h */,
 				CEED4B5F2422A77A0070C896 /* AppDelegate.m */,
-				CEED4B612422A77A0070C896 /* SceneDelegate.h */,
-				CEED4B622422A77A0070C896 /* SceneDelegate.m */,
 				CEED4B642422A77A0070C896 /* ViewController.h */,
 				CEED4B652422A77A0070C896 /* ViewController.m */,
-				CEED4B672422A77A0070C896 /* Main.storyboard */,
 				CEED4B6A2422A77C0070C896 /* Assets.xcassets */,
 				CEED4B6C2422A77C0070C896 /* LaunchScreen.storyboard */,
 				CEED4B6F2422A77C0070C896 /* Info.plist */,
@@ -189,7 +181,6 @@
 			files = (
 				CEED4B6E2422A77C0070C896 /* LaunchScreen.storyboard in Resources */,
 				CEED4B6B2422A77C0070C896 /* Assets.xcassets in Resources */,
-				CEED4B692422A77A0070C896 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +201,6 @@
 				CEED4B662422A77A0070C896 /* ViewController.m in Sources */,
 				CEED4B602422A77A0070C896 /* AppDelegate.m in Sources */,
 				CEED4B712422A77C0070C896 /* main.m in Sources */,
-				CEED4B632422A77A0070C896 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,14 +223,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEED4B672422A77A0070C896 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEED4B682422A77A0070C896 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEED4B6C2422A77C0070C896 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
